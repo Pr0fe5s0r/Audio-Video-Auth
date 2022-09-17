@@ -38,4 +38,31 @@
 **Description:**
 <br>
 <br>
-  Our Authentication System is a isolated system where we cannot interept the request and change the response. We can't also upload and alterrated data to the rest API and get the session of the account. 
+  Our Authentication System is a isolated system where we cannot interept the request and change the response. We can't also upload and alterrated data to the rest API and get the session of the account. Only can be sent from our own software or mobile app. We have configured by the signature of the device with the REST API on the backend
+  
+<br>
+<br>
+**Technologies used:**
+<br>
+<br>
+  - Dejavu = It is a Audio finger printing Lib used to memorize the audio file. we have used it to memorize the users Input and store the Audio file.
+              - Docs: https://github.com/worldveil/dejavu 
+  <br>  
+  - MYSQL  = We haved used MYSQL for storing fingerprinted data of the audio. Our real plan is to store data in blockchain using 'Hyperledger'. In future case we will              impliment the blockchain in storing fingerprinting data
+  <br>
+  - face-recognition = We also used face recognition due to its optimized output. If we use ML based fingerprinting we need more number of power and time. Insted we                            can store a fingerprinted data and compare those data to validate.
+              - Docs: https://pypi.org/project/face-recognition/
+  <br>
+  
+  - flask = We have used flask for creating a REST full API to communicate with backend of the server. By usinig API in software build's we can optimize the                       performence of the app and high accurate results.
+  <br>
+  - Firebase = We have used Firebase for storing user's video fingerprinting data's.
+
+<br>
+<br>
+**How we are going to build It:**
+<br>
+<br>
+  We have to start from building the REST API structure. By creating routes for the API we can move to next part. We also want to config the Dejavu and Face recognition in different terminals so that we can do multiple task at a same time. Then we want to connect them with REST API. By connecting with that we can move to next part. 
+  
+  For Authentication and encryption we have made a signature for the APP and software using sha-256. and we will use to encrypt the data sending from the software to the backend server.

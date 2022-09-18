@@ -5,7 +5,7 @@
   - Description.
   - Technologies used.
   - How we build It.
-  - Use Case.
+  - Conclusion.
 <br>
 <br>
 
@@ -66,3 +66,10 @@
   We have to start from building the REST API structure. By creating routes for the API we can move to next part. We also want to config the Dejavu and Face recognition in different terminals so that we can do multiple task at a same time. Then we want to connect them with REST API. By connecting with that we can move to next part. 
   
   For Authentication and encryption we have made a signature for the APP and software using sha-256. and we will use to encrypt the data sending from the software to the backend server.
+<br>
+<br>
+**Conclusion:**
+<br>
+<br>
+  We conclude that the technologies we have used and tested are the best innovative and a futuristic way in the usage of a banking sector for their authentication system and data storing technologies.
+  

@@ -12,7 +12,7 @@
 **Introduction:**
 <br>
 <br>
-  Authentication is a process of validating a user by getting credential details which the user only knows. By which organizattion can provide details or services for the beneficiary of the user. There are many types of Auth system that were used from the era of computer's. But for every authentication there might be a loop which could lead to Access Control over the user's account or service. This will make a impact on privacy of the user and security of the organization. Due to improper authentication system, attacks like password or pin cracking, phishing, zero-day vulnerablity, etc..! are occurring in day-to-day life. So, Many alternative ideas have been developed by the organization to ensure the security and privacy of the end user. Some new authentication system's are based on biometrics, genetical, heart beat scanner authentication systems.
+  Authentication(Auth) is a process of validating a user by getting credential details which the user only knows. By which organizattion can provide details or services for the beneficiary of the user. There are many types of Auth system that were used from the era of computer's. But for every authentication there might be a loop which could lead to Access Control over the user's account or service. This will make a impact on privacy of the user and security of the organization. Due to improper authentication system, attacks like password or pin cracking, phishing, zero-day vulnerablity, etc..! are occurring in day-to-day life. So, Many alternative ideas have been developed by the organization to ensure the security and privacy of the end user. Some new authentication system's are based on biometrics, genetical, heart beat scanner authentication systems.
   
   Authentication systems like biometrics are validated without crendialal but validadted by users unique finger prints and retina. Each Human have a unique fingerprint and retina Which can be used as crendential's for the user's. there are also many bimetrics auth like Voice fingerprinting, Face recognition.
   <br>
@@ -25,7 +25,7 @@
   By the above problem statement we came to the conclusion that Called ID/ PIN / Security Quetions / Device Signature are In-secure in modern Authentication system. And these are sometimes can be deteriorating to the customers experience. So, We want to find a alternative way.
   <br>
   <br>
-**Solution Of The Problem:**
+**Proposed Solution:**
 <br>
 <br>
   In order to find a new way for authentication system we have found a simple and most efficient way using REST API in cloud. Like old school tech we have also used a simple way like PIN. But there will be Two-way auth. after entering the PIN our mobile app will send a POST request to our API server with data of Person's 180 degree video with Audio of the person. Then the data will be encrypted. Then the data will be validated by the backend Server.
